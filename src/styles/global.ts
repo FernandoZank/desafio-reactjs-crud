@@ -8,6 +8,10 @@ export default createGlobalStyle`
     outline: 0;
   }
 
+  html{
+    font-size: 62.5%;
+  }
+
   body {
     background: #fff;
     color: #FFF;
@@ -25,5 +29,12 @@ export default createGlobalStyle`
 
   button {
     cursor: pointer;
+  }
+
+  @media(max-width: 1366px){
+    font-size: 58%;
+  }
+  @media(max-width: 1024px){
+    font-size: 50%;
   }
 `;
